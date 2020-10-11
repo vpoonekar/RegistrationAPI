@@ -14,6 +14,7 @@ namespace RegistrationAPI.Controllers
     [ApiController]
     public class RegisterController : ControllerBase
     {
+        // this is internal class
         OTPEmailSender sender;
         DBContext dBContext;
         public RegisterController(IEmailSender _sender , DBContext _dBContext)
